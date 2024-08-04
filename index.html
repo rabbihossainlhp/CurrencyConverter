@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C_C</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mainBody">
+        <div class="titleLogo">
+            <h1>Real-Time currency convert</h1>
+        </div>
+        <div class="imgLogo">
+            <img src="donload.png" alt="">
+        </div>
+        
+        <div class="formBox">
+            <div class="inputNumber">
+                <input type="number" placeholder="Enter your amount">
+                <hr>
+            </div>
+
+            <div class="selectContainer">
+                <div class="first">
+                    <label for="text">...........From...........</label>
+                    <select name="FromCurrency" id="fromC"><option value="BDT">BDT</option></select>
+                </div>
+                
+                <button id="SwitchBTN">Switch</button>
+
+                <div class="second">
+                    <label for="text">..............To.............</label>
+                    <select name="ToCurrency" id="toC"> <option value="USD">USD</option></select>
+                </div>
+            </div>
+
+            <div class="msg">
+                <h2>1 BTD = 0.1 USD</h2>
+            </div>
+            
+            <div class="lastBox">
+                <button id="convertBtn">Convert</button>
+                <div class="resultBox">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
