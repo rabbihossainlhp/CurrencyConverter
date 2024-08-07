@@ -95,7 +95,7 @@ const bringData = async ()=>{
 
             //try to show the result in disply
             resultBox.style.display = "block";
-            resultPara.style.color = "green";
+            resultPara.style.color = "#00E70B";
             resultPara.innerText = `${inputNumber.value} ${selectFromCurrency.value} = ${finalCalculation} ${selectToCurrency.value}`;
 
 
