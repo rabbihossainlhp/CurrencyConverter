@@ -24,14 +24,14 @@
             <div class="selectContainer">
                 <div class="first">
                     <label for="text">...........From...........</label>
-                    <select name="FromCurrency" id="fromC"><option value="BDT">BDT</option></select>
+                    <select name="FromCurrency" class="selectCurrency" id="fromC"> </select>
                 </div>
                 
                 <button id="SwitchBTN">Switch</button>
 
                 <div class="second">
                     <label for="text">..............To.............</label>
-                    <select name="ToCurrency" id="toC"> <option value="USD">USD</option></select>
+                    <select name="ToCurrency"  class="selectCurrency" id="toC"> </select>
                 </div>
             </div>
 
@@ -50,7 +50,7 @@
     </div>
 
 
-    
+    <script src="countrycode.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

@@ -118,10 +118,19 @@ body{
     align-items: start;
     width: 35%;
 }
-.first,.second label{
+label{
     color: rgb(17, 255, 33);
     display: inline;
     font-style: italic;
+}
+
+.second select{
+    height: 35px;
+}
+.first select{
+    height: 35px;
+    outline: none;
+    border-radius: 5px;
 }
 
 
@@ -139,6 +148,7 @@ body{
     font-size: 15px;
     color: rgb(255, 98, 192);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.5s ease all;
 }
 
 
@@ -157,10 +167,13 @@ body{
     margin-top: 3rem;
     width: 90%;
     height: 90px;
-    border: 1px solid wheat;
+    border: 0.5px solid wheat;
+    border-bottom: none;
+    border-right: none;
     overflow: hidden;
     text-align: center;
-    display:none ;
+    display: none ;
+    padding-top: 7px;
 }
 
 #convertBtn{
